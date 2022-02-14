@@ -1,0 +1,36 @@
+defaults:
+  - _self_
+  - env_mode
+  - room_mode
+  - task@_global_: treasure_hunt_with_fixed_room
+
+room_config:
+env_config:
+
+experiment_name:
+env_id:
+
+# agent param
+feature_dim: 50
+hidden_dim: 1024
+lr: 1e-4
+image_pad: 4
+gamma: 0.99
+replay_start_size: 2000
+batch_size: 256
+update_interval: 2
+capacity: 100000
+
+# learning param
+n_episodes: 2000
+eval_step: 10
+
+# task param
+set_seed: false
+env_seed: 0
+change_room: true
+change_pose: true
+
+stack_num: 2
+max_episode_steps: 50
+observation_resize: 84

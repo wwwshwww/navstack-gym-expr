@@ -1,0 +1,5 @@
+# task param
+set_seed: True
+env_seed: 1234
+change_room: False
+change_pose: True

@@ -1,0 +1,42 @@
+env_config: 
+
+  zantei:
+    map_size: 128
+    map_resolution: 0.1
+    map_unk_val: 50
+    map_pass_val: 0
+    map_obs_val: 100
+    path_exploration_count: 2500
+    path_planning_count: 7
+    allowable_goal_error_norm: 0.5
+    avoidance_size: 2
+    move_limit: 15
+    found_threshold: 0.7
+
+  kairyo:
+    map_size: 128
+    map_resolution: 0.1
+    spawn_extension: 0.5
+    path_exploration_count: 2500
+    path_planning_count: 7
+    avoidance_size: 3
+    move_limit: 20
+    movable_discount: 6
+    found_threshold: 0.6
+    map_obs_val: 100
+    map_pass_val: 0
+    map_unk_val: 50
+
+  full:
+    map_size: 150
+    map_resolution: 0.1
+    spawn_extension: 0.6
+    path_exploration_count: 2500
+    path_planning_count: 7
+    avoidance_size: 3
+    move_limit: 20
+    movable_discount: 6
+    found_threshold: 0.6
+    map_obs_val: 100
+    map_pass_val: 0
+    map_unk_val: 50

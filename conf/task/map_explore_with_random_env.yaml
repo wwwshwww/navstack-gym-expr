@@ -1,0 +1,9 @@
+defaults:
+  - random
+  - _self_
+
+experiment_name: 'map_explore_with_random_env'
+env_id: 'VisibleMapExplore-v0'
+
+n_episodes: 10000
+max_episode_steps: 10

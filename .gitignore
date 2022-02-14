@@ -1,0 +1,6 @@
+.venv
+__pycache__
+*.lock
+work/*/
+log/*.log
+# movie/*.gif

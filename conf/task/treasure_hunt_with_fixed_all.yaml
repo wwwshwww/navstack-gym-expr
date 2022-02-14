@@ -1,0 +1,6 @@
+defaults:
+  - fix
+  - _self_
+
+experiment_name: 'treasure_hunt_with_fixed_all'
+env_id: 'VisibleTreasureHunt-v0'

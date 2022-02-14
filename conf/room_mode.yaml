@@ -1,0 +1,37 @@
+room_config:
+
+  easy:
+    scene_obstacle_count: 10
+    scene_obstacle_size: 0.7
+    scene_target_size: 0.2
+    scene_key_size: 0.2
+    scene_obstacle_zone_thresh: 1.5
+    scene_distance_key_placing: 0.7
+    scene_range_key_placing: 0.3
+    scene_room_length_max: 9
+    scene_room_wall_thickness: 0.05
+    scene_wall_threshold: 0.1
+
+  crowded:
+    scene_obstacle_count: 15
+    scene_obstacle_size: 0.6
+    scene_target_size: 0.2
+    scene_key_size: 0.2
+    scene_obstacle_zone_thresh: 1.5
+    scene_distance_key_placing: 0.7
+    scene_range_key_placing: 0.3
+    scene_room_length_max: 9
+    scene_room_wall_thickness: 0.05
+    scene_wall_threshold: 0.1
+
+  hodoyoi:
+    scene_obstacle_count: 13
+    scene_obstacle_size: 0.6
+    scene_target_size: 0.3
+    scene_key_size: 0.2
+    scene_obstacle_zone_thresh: 1.0
+    scene_distance_key_placing: 0.7
+    scene_range_key_placing: 0.3
+    scene_room_length_max: 9
+    scene_room_wall_thickness: 0.05
+    scene_wall_threshold: 0.2

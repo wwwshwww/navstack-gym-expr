@@ -1,0 +1,3 @@
+set_seed: False
+change_room: True
+change_pose: True

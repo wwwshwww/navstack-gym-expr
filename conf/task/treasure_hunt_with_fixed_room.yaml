@@ -1,0 +1,6 @@
+defaults:
+  - fix_room
+  - _self_
+
+experiment_name: 'treasure_hunt_with_fixed_room'
+env_id: 'VisibleTreasureHunt-v0'

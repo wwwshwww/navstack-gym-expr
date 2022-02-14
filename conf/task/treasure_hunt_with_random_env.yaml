@@ -1,0 +1,6 @@
+defaults:
+  - random
+  - _self_
+
+experiment_name: 'treasure_hunt_with_random_env'
+env_id: 'VisibleTreasureHunt-v0'
